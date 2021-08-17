@@ -1,0 +1,39 @@
+#Data Type
+name = "Monsicha Moungsrichan"
+age = 13
+sex ="Women"
+student = True
+list_name = ["ice","pluem",15,20,25]
+list_friend =["yuta","Grace","Mew","Eva","Aomsin"]
+
+print(type(name),name)
+print(type(age),age)
+print(type(sex),sex)
+print(type(student),student)
+print(list_name[0])
+print(list_friend[3])
+
+#Operator
+number1 = 34
+number2 = 45
+print (number1+number2)
+print (number1-number2)
+print (number1*number2)
+print (number1/number2)
+
+#Loop Condition
+for i in range(10):
+    print(i)
+    
+for i in range(10):
+    i = i+1
+    if i>5 and i<8:
+        print(i)
+
+FirstName = "monsicha"
+LastName = "Moungsrichan"
+Age = 14
+friendName = "Mew"
+for i in range(Age):
+    if i > 9:
+        print(i,FirstName,LastName,friendName)
