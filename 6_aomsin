@@ -1,0 +1,39 @@
+#Data Type
+name =  "Nuttanicha boonuan"
+age = 14
+sex = "women"
+student = True
+list_name = ["eva","mudmee","namnueng","grace","mew"]
+
+
+print(type(name),name)
+print(type (age),age)
+print(type(sex),sex)
+print(type(student),student)
+print(list_name[0])
+print(list_name[3])
+
+#operator
+number1=34
+number2=45
+print(number1+number2)
+print(number1-number2)
+print(number1*number2)
+print(number1/number2)
+
+#loop condition
+for i in range(10):
+    i = i+1
+    print(1)
+    if  i>5 and i<8:
+         print(i)
+        
+         #loop condition
+        
+aomsin_age = 14
+First_name = "nuttanicha"
+last_name = "boonnuan "
+friend = "mudmee"
+for i in range (aomsin_age):
+   if i>9:
+      print(i, first_name, last_name, friend)
