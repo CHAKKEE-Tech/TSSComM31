@@ -1,1 +1,32 @@
+#Data Type
+name = "Kantaphat Rungkijthanakul"
+age = 13
+sex = "Men"
+student = True
+list_name = ("brave", "prem", 29, 35,37,8,9,3,35)
 
+
+print(type(name), name)
+print(type(age), age)
+print(list_name)
+print(list_name[6])
+
+#Operator
+number1 = 34
+number2 = 45
+print(number1+number2)
+print(number1-number2)
+print(number1*number2)
+print(number1/number2)
+
+#Loop 
+for i in range(10):
+    print("i")
+    
+first_name = "Kantaphat"
+last_name = "Rungkijthanakul"
+friend = "Brave"
+for j in range(10):
+    print(first_name)
+    print(last_name)
+    print(friend)
